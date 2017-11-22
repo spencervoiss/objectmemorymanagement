@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:10 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Wed Nov  8 19:35:34 2017
+# Process ID: 28113
+# Current directory: /home/spencer/Documents/seed/phase2/protected_read
+# Command line: vivado
+# Log file: /home/spencer/Documents/seed/phase2/protected_read/vivado.log
+# Journal file: /home/spencer/Documents/seed/phase2/protected_read/vivado.jou
+#-----------------------------------------------------------
+start_gui
+create_project protected_read /home/spencer/Documents/seed/phase2/protected_read/protected_read -part xc7z020clg484-1
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2017.2/data/ip'.
+create_project: Time (s): cpu = 00:00:19 ; elapsed = 00:00:07 . Memory (MB): peak = 6033.102 ; gain = 40.875 ; free physical = 112 ; free virtual = 5843
+add_files {/home/spencer/Documents/seed/phase2/protected_read/output_buffer.v /home/spencer/Documents/seed/phase2/protected_read/read_write_enabled_register.v /home/spencer/Documents/seed/phase2/protected_read/sr_flip_flop.v /home/spencer/Documents/seed/phase2/protected_read/input_buffer.v /home/spencer/Documents/seed/phase2/protected_read/write_enabled_register.v}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+add_files -norecurse /home/spencer/Documents/seed/phase2/protected_read/read_write_enabled_register.v
+WARNING: [filemgmt 56-12] File '/home/spencer/Documents/seed/phase2/protected_read/read_write_enabled_register.v' cannot be added to the project because it already exists in the project, skipping this file
+import_files -norecurse /home/spencer/Documents/seed/phase2/protected_read/read_write_enabled_register.v
+remove_files  /home/spencer/Documents/seed/phase2/protected_read/write_enabled_register.v
+add_files -norecurse /home/spencer/Documents/seed/phase2/protected_read/read_write_enabled_register.v
+update_compile_order -fileset sources_1

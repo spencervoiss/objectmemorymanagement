@@ -1,0 +1,349 @@
+/*
+
+Vivado v2017.2 (64-bit)
+SW Build 1909853 on Thu Jun 15 18:39:10 MDT 2017
+IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+
+Process ID: 28113
+License: Customer
+
+Current time: 	11/8/17 7:35:59 PM CST
+Time zone: 	Central Standard Time (America/Chicago)
+
+OS: PRETTY_NAME="Debian GNU/Linux 9 (stretch)"
+OS Version: 4.9.0-4-amd64
+OS Architecture: amd64
+Available processors (cores): 4
+
+Display: :0
+Screen size: 3286x1320
+Screen resolution (DPI): 96
+Available screens: 2
+Available disk space: 384 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	/opt/Xilinx/Vivado/2017.2/tps/lnx64/jre
+JVM executable location: 	/opt/Xilinx/Vivado/2017.2/tps/lnx64/jre/bin/java
+Java library paths: /opt/Xilinx/Vivado/2017.2/lib/lnx64.o:/opt/Xilinx/Vivado/2017.2/tps/lnx64/jre/lib/amd64:/opt/Xilinx/Vivado/2017.2/tps/lnx64/jre/lib/amd64/server:/opt/Xilinx/Vivado/2017.2/lnx64/tools/dot/lib:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+
+User name: 	spencer
+User home directory: /home/spencer
+User working directory: /home/spencer/Documents/seed/phase2/protected_read
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /opt/Xilinx/Vivado
+HDI_APPROOT: /opt/Xilinx/Vivado/2017.2
+RDI_DATADIR: /opt/Xilinx/Vivado/2017.2/data
+RDI_BINDIR: /opt/Xilinx/Vivado/2017.2/bin
+
+User preferences location: /home/spencer/.Xilinx/Vivado
+Vivado preferences directory: /home/spencer/.Xilinx/Vivado/2017.2/vivado.xml
+Vivado layouts directory: /home/spencer/.Xilinx/Vivado/2017.2/layouts
+PlanAhead jar location: 	/opt/Xilinx/Vivado/2017.2/lib/classes/planAhead.jar
+Vivado Look & Feel: 	[Synthetica - the extended Synth Look and Feel. - ui.g.i.H]
+Engine tmp dir: 	./.Xil/Vivado-28113-simplex-spencer
+
+GUI allocated memory:	180 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 836 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// [GUI Memory]: 40 MB (+39555kb) [00:00:10]
+// [Engine Memory]: 835 MB (+724208kb) [00:00:10]
+// HMemoryUtils.trashcanNow. Engine heap size: 846 MB. GUI used memory: 28 MB. Current time: 11/8/17 7:36:01 PM CST
+selectButton(PAResourceEtoH.GettingStartedView_CREATE_NEW_PROJECT, "Create Project"); // x:h (JPanel:JComponent, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_NEW_PROJECT
+// [GUI Memory]: 49 MB (+7654kb) [00:00:16]
+// g:g (cg:JFrame): New Project: addNotify
+// [Engine Memory]: 879 MB (+2367kb) [00:00:19]
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, g:g)
+// [GUI Memory]: 54 MB (+2223kb) [00:00:29]
+// Elapsed time: 10 seconds
+setText(PAResourceOtoP.ProjectNameChooser_PROJECT_NAME, "protected_read"); // X:JTextField (JPanel:JComponent, g:g)
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, g:g)
+// [GUI Memory]: 62 MB (+5252kb) [00:00:34]
+// Elapsed time: 24 seconds
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, g:g)
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_DIRECTORIES, "Add Directories"); // a:JButton (C:JPanel, g:g)
+// Elapsed time: 29 seconds
+setFolderChooser("/home/spencer/Documents/seed/phase2/protected_read");
+// Elapsed time: 17 seconds
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, g:g)
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, g:g)
+// HMemoryUtils.trashcanNow. Engine heap size: 920 MB. GUI used memory: 31 MB. Current time: 11/8/17 7:37:47 PM CST
+// Elapsed time: 25 seconds
+selectComboBox(PAResourceOtoP.PartChooser_FAMILY_CHOOSER, "Zynq-7000", 10); // aC:V (JPanel:JComponent, g:g)
+// Elapsed time: 14 seconds
+setText("PAResourceOtoP.PartChooser_PARTS_SEARCH_FIELD", (String) null); // OverlayTextField:JTextField (DefaultOverlayable:JPanel, g:g)
+// [Engine Memory]: 923 MB (+169kb) [00:02:39]
+// Elapsed time: 12 seconds
+selectButton(PAResourceOtoP.PartChooser_BOARDS, "Boards"); // l:u (JPanel:JComponent, g:g): TRUE
+selectButton(PAResourceOtoP.PartChooser_PARTS, "Parts"); // l:u (C:JPanel, g:g): TRUE
+// Elapsed time: 49 seconds
+selectTable(PAResourceOtoP.PartChooser_PARTS, "xc7z007sclg400-2 ; 400 ; 100 ; 14400 ; 28800 ; 50 ; 0 ; 66 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 2 ;  ;  ;  ;  ; 0.95 ; 0.95 ; 1.05", 2, "400", 1); // ah:r (JViewport:JComponent, g:g)
+selectTableHeader(PAResourceOtoP.PartChooser_PARTS, "I/O Pin
+Count", 1); // ah:r (JViewport:JComponent, g:g)
+// [GUI Memory]: 65 MB (+374kb) [00:03:56]
+// [GUI Memory]: 69 MB (+335kb) [00:06:31]
+// Elapsed time: 177 seconds
+setText("PAResourceOtoP.PartChooser_PARTS_SEARCH_FIELD", "XC7Z020CLG484"); // OverlayTextField:JTextField (DefaultOverlayable:JPanel, g:g)
+selectTable(PAResourceOtoP.PartChooser_PARTS, "xc7z020clg484-1 ; 484 ; 200 ; 53200 ; 106400 ; 140 ; 0 ; 220 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 4 ;  ;  ;  ;  ; 0.95 ; 0.95 ; 1.05", 2, "xc7z020clg484-1", 0); // ah:r (JViewport:JComponent, g:g)
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, g:g)
+// bs:g (g:g):  Create Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: create_project protected_read /home/spencer/Documents/seed/phase2/protected_read/protected_read -part xc7z020clg484-1 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2017.2/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 972 MB. GUI used memory: 37 MB. Current time: 11/8/17 7:42:40 PM CST
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [Engine Memory]: 972 MB (+2233kb) [00:06:52]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: create_project: Time (s): cpu = 00:00:19 ; elapsed = 00:00:07 . Memory (MB): peak = 6033.102 ; gain = 40.875 ; free physical = 112 ; free virtual = 5843 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files {/home/spencer/Documents/seed/phase2/protected_read/output_buffer.v /home/spencer/Documents/seed/phase2/protected_read/read_write_enabled_register.v /home/spencer/Documents/seed/phase2/protected_read/sr_flip_flop.v /home/spencer/Documents/seed/phase2/protected_read/input_buffer.v /home/spencer/Documents/seed/phase2/protected_read/write_enabled_register.v} 
+// Elapsed time: 11 seconds
+selectButton("FINISH", "Finish"); // JButton:AbstractButton (ButtonPanel:JPanel, g:g)
+// 'g' command handler elapsed time: 398 seconds
+dismissDialog("Create Project"); // bs:g (g:g)
+dismissDialog("New Project"); // g:g (cg:JFrame)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files]", 2); // B:i (D:JPanel, cg:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// PAPropertyPanels.initPanels (output_buffer.v) elapsed time: 0.3s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, output_buffer.v]", 3, false); // B:i (D:JPanel, cg:JFrame)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// [GUI Memory]: 77 MB (+5238kb) [00:07:02]
+// [Engine Memory]: 1,026 MB (+6458kb) [00:07:02]
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, output_buffer.v]", 3, false); // B:i (D:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, output_buffer.v]", 3, false, false, false, false, false, true); // B:i (D:JPanel, cg:JFrame) - Double Click
+// HMemoryUtils.trashcanNow. Engine heap size: 1,028 MB. GUI used memory: 38 MB. Current time: 11/8/17 7:42:57 PM CST
+// Elapsed time: 22 seconds
+selectCodeEditor("output_buffer.v", 340, 337); // bI:J (JPanel:JComponent, cg:JFrame)
+// [GUI Memory]: 83 MB (+2201kb) [00:08:29]
+// Elapsed time: 101 seconds
+selectCodeEditor("output_buffer.v", 292, 357); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("output_buffer.v", 297, 344); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("output_buffer.v", 290, 340); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("output_buffer.v", 29, 173); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "output_buffer.v", 'c'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("output_buffer.v", 276, 336); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "output_buffer.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("output_buffer.v", 466, 368); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("output_buffer.v", 508, 338); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("output_buffer.v", 312, 329); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("output_buffer.v", 266, 345); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 46 seconds
+selectCodeEditor("output_buffer.v", 236, 276); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("output_buffer.v", 322, 273); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("output_buffer.v", 375, 354); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 12 seconds
+selectCodeEditor("output_buffer.v", 95, 264); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("output_buffer.v", 158, 268); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("output_buffer.v", 90, 262); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("output_buffer.v", 297, 256); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("output_buffer.v", 332, 270); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("output_buffer.v", 332, 261); // bI:J (JPanel:JComponent, cg:JFrame)
+// [GUI Memory]: 89 MB (+1565kb) [00:13:15]
+// Elapsed time: 181 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Verilog]", 1); // B:i (D:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Verilog, write_enabled_register.v]", 3, false); // B:i (D:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Verilog, write_enabled_register.v]", 3, false); // B:i (D:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Verilog, write_enabled_register.v]", 3, false, false, false, false, false, true); // B:i (D:JPanel, cg:JFrame) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files]", 4, true); // B:i (D:JPanel, cg:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, output_buffer.v]", 5, false); // B:i (D:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, output_buffer.v]", 5, false, false, false, false, false, true); // B:i (D:JPanel, cg:JFrame) - Double Click
+selectCodeEditor("output_buffer.v", 128, 97); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("output_buffer.v", 248, 201); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("output_buffer.v", 281, 193); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("output_buffer.v", 294, 131); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("output_buffer.v", 215, 208); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("output_buffer.v", 71, 131); // bI:J (JPanel:JComponent, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Verilog, write_enabled_register.v]", 3, false); // B:i (D:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Verilog, write_enabled_register.v]", 3, false, false, false, false, false, true); // B:i (D:JPanel, cg:JFrame) - Double Click
+// Elapsed time: 46 seconds
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // B:JideButton (f:CommandBar, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c:g (cg:JFrame): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, c:g)
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files"); // a:JButton (C:JPanel, c:g)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,054 MB. GUI used memory: 41 MB. Current time: 11/8/17 7:51:02 PM CST
+setFileChooser("/home/spencer/Documents/seed/phase2/protected_read/read_write_enabled_register.v");
+selectButton("FINISH", "Finish"); // JButton:AbstractButton (ButtonPanel:JPanel, c:g)
+// 'h' command handler elapsed time: 15 seconds
+dismissDialog("Add Sources"); // c:g (cg:JFrame)
+// Tcl Message: add_files -norecurse /home/spencer/Documents/seed/phase2/protected_read/read_write_enabled_register.v 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Verilog, sr_flip_flop.v]", 2, false); // B:i (D:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files]", 4, true); // B:i (D:JPanel, cg:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Verilog, sr_flip_flop.v]", 2, false); // B:i (D:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Verilog]", 1, true); // B:i (D:JPanel, cg:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Verilog, write_enabled_register.v]", 3, false); // B:i (D:JPanel, cg:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 9); // B:i (D:JPanel, cg:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 10); // B:i (D:JPanel, cg:JFrame)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 10); // B:i (D:JPanel, cg:JFrame)
+// Elapsed time: 17 seconds
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // B:JideButton (f:CommandBar, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c:g (cg:JFrame): Add Sources: addNotify
+// Elapsed time: 19 seconds
+selectRadioButton(PAResourceAtoD.AddSrcWizard_SPECIFY_HDL_NETLIST_BLOCK_DESIGN, "Add or create design sources"); // a:JRadioButton (JPanel:JComponent, c:g)
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, c:g)
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files"); // a:JButton (C:JPanel, c:g)
+setFileChooser("/home/spencer/Documents/seed/phase2/protected_read/read_write_enabled_register.v");
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files"); // a:JButton (C:JPanel, c:g)
+dismissFileChooser();
+selectTable(PAResourceQtoS.SrcChooserTable_SRC_CHOOSER_TABLE, "VerilogSourceFile_small ; 1 ; read_write_enabled_register.v ; xil_defaultlib ; /home/spencer/Documents/seed/phase2/protected_read", 0, "read_write_enabled_register.v", 2); // bB:r (JViewport:JComponent, c:g)
+selectTable(PAResourceQtoS.SrcChooserTable_SRC_CHOOSER_TABLE, "VerilogSourceFile_small ; 1 ; read_write_enabled_register.v ; xil_defaultlib ; /home/spencer/Documents/seed/phase2/protected_read", 0, "read_write_enabled_register.v", 2, false, false, false, true, false); // bB:r (JViewport:JComponent, c:g) - Popup Trigger
+selectTable(PAResourceQtoS.SrcChooserTable_SRC_CHOOSER_TABLE, "VerilogSourceFile_small ; 1 ; read_write_enabled_register.v ; xil_defaultlib ; /home/spencer/Documents/seed/phase2/protected_read", 0, "read_write_enabled_register.v", 2, false, false, false, true, false); // bB:r (JViewport:JComponent, c:g) - Popup Trigger
+selectMenu(PAResourceQtoS.SrcChooserPanel_ADD_OR_CREATE_SOURCE_FILE, "Add"); // Z:JMenu (ai:JPopupMenu, c:g)
+selectTable(PAResourceQtoS.SrcChooserTable_SRC_CHOOSER_TABLE, "VerilogSourceFile_small ; 1 ; read_write_enabled_register.v ; xil_defaultlib ; /home/spencer/Documents/seed/phase2/protected_read", 0, "xil_defaultlib", 3); // bB:r (JViewport:JComponent, c:g)
+editTable(PAResourceQtoS.SrcChooserTable_SRC_CHOOSER_TABLE, "xil_defaultlib", 0, "Library", 3); // bB:r (JViewport:JComponent, c:g)
+selectTable(PAResourceQtoS.SrcChooserTable_SRC_CHOOSER_TABLE, "VerilogSourceFile_small ; 1 ; read_write_enabled_register.v ; xil_defaultlib ; /home/spencer/Documents/seed/phase2/protected_read", 0, "read_write_enabled_register.v", 2); // bB:r (JViewport:JComponent, c:g)
+selectCheckBox(PAResourceQtoS.SrcChooserPanel_MAKE_LOCAL_COPY_OF_THESE_FILES_INTO, "Copy sources into project", true); // g:JCheckBox (JPanel:JComponent, c:g): TRUE
+selectButton("FINISH", "Finish"); // JButton:AbstractButton (ButtonPanel:JPanel, c:g)
+// 'h' command handler elapsed time: 43 seconds
+dismissDialog("Add Sources"); // c:g (cg:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: import_files -norecurse /home/spencer/Documents/seed/phase2/protected_read/read_write_enabled_register.v 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 1,077 MB. GUI used memory: 42 MB. Current time: 11/8/17 7:52:27 PM CST
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Libraries", 1); // i:JideTabbedPane (N:aJ, cg:JFrame)
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Hierarchy", 0); // i:JideTabbedPane (N:aJ, cg:JFrame)
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Compile Order", 2); // i:JideTabbedPane (N:aJ, cg:JFrame)
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Hierarchy", 0); // i:JideTabbedPane (N:aJ, cg:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, output_buffer (output_buffer.v)]", 6); // B:i (D:JPanel, cg:JFrame)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, output_buffer (output_buffer.v)]", 6); // B:i (D:JPanel, cg:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, protected_read_input_buffer (input_buffer.v)]", 7); // B:i (D:JPanel, cg:JFrame)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, protected_read_input_buffer (input_buffer.v)]", 7); // B:i (D:JPanel, cg:JFrame)
+// Elapsed time: 12 seconds
+selectButton((HResource) null, "Sources_FileSetView.filterMissingAction"); // u:JideToggleButton (f:CommandBar, cg:JFrame): TRUE
+// Elapsed time: 29 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // k:TdiGroup (j:CodeEditorDocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "write_enabled_register.v", 2); // k:TdiGroup (j:CodeEditorDocumentPane, cg:JFrame)
+// Elapsed time: 26 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Verilog, write_enabled_register.v]", 3, false); // B:i (D:JPanel, cg:JFrame)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// as:g (cg:JFrame): Remove Sources: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, as:g)
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Remove Sources"); // as:g (cg:JFrame)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // A:b
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: remove_files  /home/spencer/Documents/seed/phase2/protected_read/write_enabled_register.v 
+// as:g (cg:JFrame): Remove Sources: addNotify
+// bs:g (as:g):  Remove Sources : addNotify
+dismissDialog("Remove Sources"); // bs:g (as:g)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// [Engine Memory]: 1,094 MB (+16600kb) [00:18:14]
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("output_buffer.v", 78, 127); // bI:J (JPanel:JComponent, cg:JFrame)
+// [GUI Memory]: 94 MB (+841kb) [00:18:16]
+selectCodeEditor("output_buffer.v", 75, 132); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("output_buffer.v", 248, 118); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("output_buffer.v", 319, 155); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("output_buffer.v", 166, 132); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("output_buffer.v", 162, 128, false, false, false, true, false); // bI:J (JPanel:JComponent, cg:JFrame) - Popup Trigger
+selectCodeEditor("output_buffer.v", 113, 161); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("output_buffer.v", 130, 119); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("output_buffer.v", 127, 124); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("output_buffer.v", 198, 128); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("output_buffer.v", 243, 94); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("output_buffer.v", 241, 162); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("output_buffer.v", 122, 106); // bI:J (JPanel:JComponent, cg:JFrame)
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // B:JideButton (f:CommandBar, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c:g (cg:JFrame): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, c:g)
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files"); // a:JButton (C:JPanel, c:g)
+setFileChooser("/home/spencer/Documents/seed/phase2/protected_read/read_write_enabled_register.v");
+selectTable(PAResourceQtoS.SrcChooserTable_SRC_CHOOSER_TABLE, "VerilogSourceFile_small ; 1 ; read_write_enabled_register.v ; xil_defaultlib ; /home/spencer/Documents/seed/phase2/protected_read", 0, "read_write_enabled_register.v", 2); // bB:r (JViewport:JComponent, c:g)
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files"); // a:JButton (C:JPanel, c:g)
+dismissFileChooser();
+selectCheckBox(PAResourceQtoS.SrcChooserPanel_MAKE_LOCAL_COPY_OF_THESE_FILES_INTO, "Copy sources into project", false); // g:JCheckBox (JPanel:JComponent, c:g): FALSE
+selectCheckBox(PAResourceQtoS.SrcChooserPanel_SCAN_AND_ADD_RTL_INCLUDE_FILES_INTO, "Scan and add RTL include files into project", true); // g:JCheckBox (JPanel:JComponent, c:g): TRUE
+selectButton(RDIResource.QuickHelp_HELP, (String) null); // t:s (ButtonPanel:JPanel, c:g)
+selectCheckBox(PAResourceQtoS.SrcChooserPanel_SCAN_AND_ADD_RTL_INCLUDE_FILES_INTO, "Scan and add RTL include files into project", false); // g:JCheckBox (JPanel:JComponent, c:g): FALSE
+selectButton("FINISH", "Finish"); // JButton:AbstractButton (ButtonPanel:JPanel, c:g)
+// 'h' command handler elapsed time: 26 seconds
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Add Sources"); // c:g (cg:JFrame)
+// TclEventType: FILE_SET_CHANGE
+// bs:g (cg:JFrame):  Add Sources  : addNotify
+// Tcl Message: add_files -norecurse /home/spencer/Documents/seed/phase2/protected_read/read_write_enabled_register.v 
+dismissDialog("Add Sources"); // bs:g (cg:JFrame)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,113 MB. GUI used memory: 42 MB. Current time: 11/8/17 7:54:57 PM CST
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectButton(RDIResource.HPopupTitle_CLOSE, (String) null); // k:JideButton (JPanel:JComponent, ResizableWindow:JWindow)
+selectButton(PAResourceEtoH.FileSetView_EXPAND_ALL, "Sources_expand_all"); // B:JideButton (f:CommandBar, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Verilog Header, write_enabled_register.v]", 4, false); // B:i (D:JPanel, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // k:TdiGroup (j:CodeEditorDocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "output_buffer.v", 1); // k:TdiGroup (j:CodeEditorDocumentPane, cg:JFrame)
+// Elapsed time: 15 seconds
+selectCodeEditor("output_buffer.v", 419, 553); // bI:J (JPanel:JComponent, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Verilog Header, write_enabled_register.v]", 4, false); // B:i (D:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Verilog Header, write_enabled_register.v]", 4, false, false, false, false, true, false); // B:i (D:JPanel, cg:JFrame) - Popup Trigger
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Verilog Header, write_enabled_register.v]", 4, false); // B:i (D:JPanel, cg:JFrame)
+selectCodeEditor("output_buffer.v", 217, 134, false, false, false, true, false); // bI:J (JPanel:JComponent, cg:JFrame) - Popup Trigger
+selectCodeEditor("output_buffer.v", 190, 143); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("output_buffer.v", 180, 136); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("output_buffer.v", 178, 130); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("output_buffer.v", 178, 130, false, false, false, true, false); // bI:J (JPanel:JComponent, cg:JFrame) - Popup Trigger
+selectCodeEditor("output_buffer.v", 81, 192); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("output_buffer.v", 121, 105); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 11 seconds
+unMinimizeFrame(RDIResource.RDIViews_PROPERTIES, "Properties"); // ax:DockableFrame
+selectButton(PAResourceEtoH.FileSetView_COLLAPSE_ALL, "Sources_collapse_all"); // B:JideButton (f:CommandBar, cg:JFrame)
+// Elapsed time: 13 seconds
+selectCodeEditor("output_buffer.v", 272, 453); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("output_buffer.v", 406, 484); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("output_buffer.v", 428, 462); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("output_buffer.v", 234, 120); // bI:J (JPanel:JComponent, cg:JFrame)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B:JideButton (f:CommandBar, cg:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 1,147 MB. GUI used memory: 43 MB. Current time: 11/8/17 7:56:27 PM CST
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files]", 3); // B:i (D:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, output_buffer.v]", 4, false); // B:i (D:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, output_buffer.v]", 4, false); // B:i (D:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, output_buffer.v]", 4, false, false, false, false, false, true); // B:i (D:JPanel, cg:JFrame) - Double Click
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Verilog Header]", 2); // B:i (D:JPanel, cg:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Verilog]", 1); // B:i (D:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Verilog, read_write_enabled_register.v]", 3, false); // B:i (D:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Verilog, read_write_enabled_register.v]", 3, false); // B:i (D:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Verilog, read_write_enabled_register.v]", 3, false, false, false, false, false, true); // B:i (D:JPanel, cg:JFrame) - Double Click
